@@ -11,3 +11,5 @@ class TestClient(TestCase):
         result = getAttack(entier)
         # THEN
         self.assertEqual(result, 1)
+
+
